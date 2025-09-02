@@ -82,7 +82,7 @@ def score_user(query: str, user: dict) -> int:
 # Session state initialization
 if "messages" not in st.session_state:
     st.session_state.messages = [
-        {"role": "assistant", "content": "Connectoai: A platform where users interact with an AI assistant, but instead of being siloed: ai connet u to people"}
+        {"role": "assistant", "content": "Connectoai: A platform where users interact with an AI assistant, but connect you to people"}
     ]
 
 if "suggested_users" not in st.session_state:
