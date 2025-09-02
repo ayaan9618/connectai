@@ -10,7 +10,7 @@ st.set_page_config(page_title="Connectoai", page_icon="🤖")
 
 
 # Google AI Studio (Generative Language API)
-GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY", "AIzaSyA6RT1qAE43niIDl20Iw6fbcMK2ZrL37T0").strip()
+GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY", "").strip()
 GOOGLE_MODEL = os.getenv("GOOGLE_MODEL", "gemini-2.0-flash").strip()
 GOOGLE_URL = os.getenv(
     "GOOGLE_URL",
